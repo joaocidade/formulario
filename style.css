@@ -64,9 +64,55 @@ color: white;
 
 
 #login{
-    width: 100%;
+    background-color:#454D6B;
     height: 500px;
-    background-color: black;
+}
+#login #usuarioEsenha{
+
+    background-color: #353B50;
+    padding-top: 0px;
+    font-size: 20px;      
+    height: 350px;
+    width: 400px;
+    margin-left: 450px;
+    padding-top: 100px;
+    
+}
+
+.log{
+    flex-direction: column;
     display: flex;
-  
+    width: 90%;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    background-color: #353B50;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+#but{
+    margin-left: 80px;
+    width: 240px;
+    background-color: red;
+    height: 30px;
+}
+#sen{
+    margin-left: 130px;
+    font-size: 19px;
+}
+#login #usuarioEsenha hr{
+    width: 40px;
+    margin-left: 10px
+    
+}
+#login #usuarioEsenha a{
+    color: white;
+}
+
+#lo{
+    color: white;
+    margin-left: 10px;
+
 }
